@@ -1,5 +1,7 @@
+import React, { useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Index from "./pages/Index.jsx";
+import Index from "./pages/Index";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
